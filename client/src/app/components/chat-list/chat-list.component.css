@@ -1,0 +1,12 @@
+.chat-list {
+  background-color: #283142;
+  height: 100%;
+  display: flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+
+.chat-list::-webkit-scrollbar {
+  display: none;
+}

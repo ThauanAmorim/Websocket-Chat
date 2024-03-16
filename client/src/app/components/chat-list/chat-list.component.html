@@ -1,0 +1,3 @@
+<div class="chat-list">
+  <app-user *ngFor="let chat of chats; let last = last; let first = first" [name]="chat.name" [idChat]="chat.id"></app-user>
+</div>

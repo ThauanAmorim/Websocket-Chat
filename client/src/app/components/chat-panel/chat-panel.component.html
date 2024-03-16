@@ -1,0 +1,16 @@
+<div class="chat-panel-select-chat" *ngIf="!canRender">
+  <p class="select-chat-text">Select a chat to start a conversation!</p>
+</div>
+
+<div *ngIf="canRender" class="chat-panel">
+  <div class="message-box">
+    <app-message *ngFor="let message of messages; let last = last; let first = first" [userLogin]="message.sender.login" [content]="message.content"></app-message>
+  </div>
+
+  <form class="form" (submit)="sendMessage(message, $event)">
+    <mat-form-field class="input-text">
+      <mat-label>Message</mat-label>
+      <input  matInput #message>
+    </mat-form-field>
+  </form>
+</div>

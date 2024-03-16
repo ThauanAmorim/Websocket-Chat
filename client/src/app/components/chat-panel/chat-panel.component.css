@@ -1,0 +1,40 @@
+.chat-panel-select-chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #1b2531;
+}
+
+.select-chat-text {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.chat-panel {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  height: 100%;
+}
+
+.message-box {
+  display: flex;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-direction: column-reverse;
+  height: 90%;
+  width: 75vw;
+}
+
+.form {
+  display: flex;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  flex-grow: 1;
+  align-items: flex-end;
+}
+
+.input-text {
+  flex-grow: 1;
+}

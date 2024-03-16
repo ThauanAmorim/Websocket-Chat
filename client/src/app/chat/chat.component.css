@@ -1,0 +1,12 @@
+.chat {
+  display: flex;
+  height: 100%;
+}
+
+.chat-list {
+  flex-grow: 1;
+}
+
+.chat-panel {
+  flex-grow: 5;
+}

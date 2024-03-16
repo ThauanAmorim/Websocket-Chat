@@ -1,0 +1,15 @@
+.message {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: rgb(223, 223, 223);
+  width: 99%;
+  margin: 0;
+  max-width: 70vw;
+  margin-top: 1vh;
+  margin-left: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
